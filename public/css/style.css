@@ -84,6 +84,44 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* Coming-soon placeholder: logo + tagline + contact, centered in viewport. */
+.coming-soon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.coming-soon__logo {
+  width: 100%;
+  max-width: 430px;
+  height: auto;
+}
+
+.coming-soon__tagline {
+  margin: 2rem 0 0.5rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: #e08826;
+}
+
+.coming-soon__contact {
+  margin: 0;
+}
+
+.coming-soon__contact a {
+  color: #222;
+  text-decoration: none;
+}
+
+.coming-soon__contact a:hover,
+.coming-soon__contact a:focus {
+  text-decoration: underline;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
